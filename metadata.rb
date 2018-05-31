@@ -10,5 +10,5 @@ chef_version '>= 12.14' if respond_to?(:chef_version)
 issues_url 'https://github.com/julienlevasseur/chef-kubectl/issues'
 source_url 'https://github.com/julienlevasseur/chef-kubectl'
 
-supports 'debian'
+supports 'debian', '> 7'
 supports 'ubuntu'
