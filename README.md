@@ -1,4 +1,9 @@
 # kubectl
 
-TODO: Enter the cookbook description here.
+Install and configure kubectl.
 
+## Usage
+
+```ruby
+include_recipe 'kubectl'
+```
